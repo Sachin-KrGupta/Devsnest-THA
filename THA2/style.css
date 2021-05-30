@@ -1,0 +1,26 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1616088410192-d1b123712994?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWluaW1hbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.content {
+    position: relative;
+    width: 40%;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 50px;
+    padding-top: 30px;
+    padding-bottom: 130px;
+    margin-left: 45%;
+    margin-right: 15%;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("devsnest.png");
+    
+}
+#head {
+    text-align: center;
+}
