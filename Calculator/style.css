@@ -1,0 +1,56 @@
+@font-face {
+    font-family: digital-font;
+    src: url('digital-7.regular.ttf');
+}
+body {
+    background-color: #f1f1f1;
+}
+.main {
+    display: flex;
+    justify-content: center;
+}
+button {
+    height: 90px;
+    width: 90px;
+    font-size: 35px;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    border-radius: 50%;
+    /* font-family: digital-font; */
+    color: white;
+}
+button:hover
+{
+    background-color: gray;
+    box-shadow: 0px 0px 10px black inset;
+    transform: scale(1.2);
+}
+input {
+    height: 100px;
+    width: 395px;
+    margin-left: 3px;
+    font-size: 70px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    border: 3px solid black;
+    box-shadow: 0px 0px 10px black inset;
+    padding-left: 20px;
+    font-family: digital-font;
+    outline: none;
+}
+h1 {
+    text-align: center;
+    font-family: digital-font;
+    letter-spacing: 10px;
+    font-size: 35px;
+}
+.cut {
+    width: 60px;
+}
+.calc1 {
+    border: 3px solid black;
+    padding: 20px;
+    background-color: rgb(49, 49, 49);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px black;
+}
