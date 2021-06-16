@@ -2,12 +2,10 @@ td {
     height: 20px;
     width: 20px;
     background-color: red;
-    margin: 0;
     border: 1px solid rgba(255, 88, 88,1);
 }
 table {
     border-spacing: 0px;
-    /* background-color:rgba(255, 88, 88,1); */
 }
 tr {
     margin: 0;
@@ -16,4 +14,8 @@ tr {
     display: flex;
     justify-content: center;
     padding-top: 100px;
+}
+.white {
+    background-color: white;
+    border: none;
 }
