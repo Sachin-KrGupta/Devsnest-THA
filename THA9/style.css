@@ -5,10 +5,7 @@ td {
     border: 1px solid rgba(255, 88, 88,1);
 }
 table {
-    border-spacing: 1px;
-}
-tr {
-    margin: 0;
+    border-spacing: 0px;
 }
 .main {
     display: flex;

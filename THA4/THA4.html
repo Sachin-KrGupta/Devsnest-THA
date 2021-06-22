@@ -44,13 +44,14 @@
             margin-top: 265px;
             position: absolute;
             transform-origin: bottom left;
-            
-            transition: width 2s;
+            animation-name: example0;
+            animation-duration: 60000s;
         }
-        .line3 {
-            transform: rotate(360deg);
-            /* width: 100px; */
+        @keyframes example0 {
+            from {transform: rotate(30deg);}
+            to {transform: rotate(3600deg);}
         }
+        
         .line2{
             height: 100px;
             background-color: brown;
@@ -60,7 +61,12 @@
             margin-top: 245px;
             position: absolute;
             transform-origin: bottom left;
-            /* transform: rotate(5deg); */
+            animation-name: example1;
+            animation-duration: 6000s;
+        }
+        @keyframes example1 {
+            from {transform: rotate(90deg);}
+            to {transform: rotate(3600deg);}
         }
         .line3{
             height: 120px;
@@ -70,9 +76,17 @@
             margin-left: 700px;
             margin-top: 225px;
             position: absolute;
-            /* transform: rotate(90deg); */
+            
             transform-origin: bottom left;
-            transition: transform 60s;
+            animation-name: example;
+            animation-duration: 600s;
+        }
+        @keyframes example {
+            from {transform: rotate(120deg);}
+            to {transform: rotate(3600deg);}
+        }
+        .line3:hover {
+            transform: rotate(360deg);
         }
     </style>
 </head>

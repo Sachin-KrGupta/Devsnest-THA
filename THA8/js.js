@@ -3,6 +3,7 @@ for(let i=0;i<20;i++) {
     row+="<td></td>";
 }
 row+="</tr>";
+
 var content = "";
 
 for(let i=0;i<20;i++) {
