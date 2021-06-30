@@ -1,0 +1,34 @@
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    list-style: none;
+    min-width: 400px;
+    min-height: 50px;
+    /* border-radius: 15px; */
+    padding: 15px;
+    /* display: flex; */
+}
+
+/* i {
+    float: right;
+} */
+
+i:hover {
+    color: red;
+    cursor: pointer;
+}
+
+ul {
+    margin-top: 30px;
+}
+
+li:nth-child(even) {
+    background-color: yellow;
+}
+
+li:nth-child(odd) {
+    background-color: lightgreen;
+}
