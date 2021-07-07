@@ -1,3 +1,5 @@
+//random_rgba() function is copied from stackoverflow
+
 var x = document.querySelector('.main');
 function random_rgba() {
     var o = Math.round, r = Math.random, s = 255;
@@ -24,5 +26,3 @@ function getMeme() {
     }
     xhr.send();
 }
-
-// getMeme();

@@ -1,0 +1,10 @@
+body, html {
+    height: 150%;
+}
+.main {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    text-align: center;
+}
