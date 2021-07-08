@@ -1,6 +1,20 @@
 .board {
     margin-top: 50px;
-    border: 2px solid black;
-    height: 243px;
     box-sizing: border-box;
 }
+
+.box {
+    height: 40px;
+    width: 40px;
+    background-color: black;
+}
+
+
+.row {
+    display: flex;
+}
+
+.row:nth-child(odd) > .box:nth-child(odd),
+  .row:nth-child(even) > .box:nth-child(even) {
+    background-color: #BB8760;
+  }
