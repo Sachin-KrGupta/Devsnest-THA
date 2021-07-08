@@ -16,5 +16,5 @@
 
 .row:nth-child(odd) > .box:nth-child(odd),
   .row:nth-child(even) > .box:nth-child(even) {
-    background-color: #BB8760;
+    background-color: skyblue;
   }
