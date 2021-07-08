@@ -1,0 +1,19 @@
+.white {
+    background-color: lightsalmon;
+}
+
+.row {
+    display: flex;
+}
+.row1 {
+    display: flex;
+}
+
+span {
+    height: 30px;
+    width: 30px;
+}
+
+.yellow {
+    background-color: brown;
+}

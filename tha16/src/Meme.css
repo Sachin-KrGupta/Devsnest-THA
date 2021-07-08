@@ -1,0 +1,15 @@
+img {
+    height: 300px;
+    width: 302px;
+}
+
+h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.meme-card {
+    border: 2px solid black;
+    padding: 0px;
+    box-sizing: border-box;
+}

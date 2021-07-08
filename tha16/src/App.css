@@ -1,0 +1,8 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  margin-top: 12.5%;
+}
+
