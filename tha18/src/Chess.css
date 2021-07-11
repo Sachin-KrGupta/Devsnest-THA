@@ -1,0 +1,27 @@
+.white, .black {
+    height: 50px;
+    width: 50px;
+}
+
+.white {
+    background-color: skyblue;
+    margin: 0;
+}
+
+.black {
+    background-color: black;
+    margin: 0;
+}
+
+.row1, .row2 {
+    display: flex;
+    margin: -1px;
+}
+
+.board {
+    border: 5px solid #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
