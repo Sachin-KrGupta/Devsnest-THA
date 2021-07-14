@@ -1,0 +1,21 @@
+.block {
+    min-height: 90px;
+    width: 250px;
+    background-color: skyblue;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    padding: 15px;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+.dlt {
+    color: red;
+    float: right;   
+}
+
+.dlt:hover {
+    transform: scale(1.2);
+}
