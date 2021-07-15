@@ -1,0 +1,24 @@
+.App {
+  padding: 20px;
+  box-shadow: 0 0 10px black;
+  border: 1px solid black;
+  max-width: 300px;
+  /* overflow: auto; */
+  height: 400px;
+  background-color: blue;
+  /* overflow-y: auto; */
+  box-sizing: content-box;
+  border-radius: 5px;
+}
+
+.list-block {
+  overflow: auto;
+  overflow-y: auto;
+  height: 325px;
+  border-radius: 10px
+}
+
+.head {
+  color: skyblue;
+}
+

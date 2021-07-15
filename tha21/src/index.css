@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(bg.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: black;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: rgb(244,10,255);
+  background: linear-gradient(180deg, rgba(244,10,255,1) 0%, rgba(200,0,255,1) 53%, rgba(0,212,255,1) 100%);
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
