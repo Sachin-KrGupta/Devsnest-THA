@@ -16,7 +16,9 @@ h3 {
     transform: scale(1.2);
     color: red;
 }
-
+.edit, .dlt {
+    cursor: pointer;
+}
 .edit:hover {
     transform: scale(1.2);
     color: white;

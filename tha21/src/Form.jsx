@@ -13,13 +13,10 @@ export default function Form(props) {
         setCal(e.target.value);
     }
     function formHandler(e) {
-        
+        e.preventDefault();
         props.setItems([...props.cds, {'head': text, 'cal': cal}]);
         setCal("");
-        setText("");
-        e.preventDefault();
-        
-        
+        setText("");    
     }
     return (
         <div >

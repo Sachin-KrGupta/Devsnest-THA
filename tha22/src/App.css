@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.image {
+  height: 500px;
+  width: 100%;
+  border: 1px solid black;
+  background-position: center;
+  background-size: cover;
+
+}
+
+.prnt {
+  width: 33.333%;
+  display: inline-block;
+  border: 10px solid transparent;
+}
+
+.meme {
+  display: flex;
+  justify-content: center;
+}
+
+.image-meme {
+  height: 500px;
+  width: 500px;
+  border: 1px solid black;
+  background-position: center;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+}
+
+.inp {
+  margin: 5px 10px;
+}
+.main {
+  text-align: center;
+}

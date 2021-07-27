@@ -6,7 +6,6 @@ import Form from './Form'
 import './Block.css'
 
 export default function Box() {
-    
     const [cards, setItems] = useState([
         {
             'head' : 'Apple',
@@ -25,7 +24,6 @@ export default function Box() {
             'cal' : '31'
         }
     ]);
-    console.log(cards);
     let arr = [];
     for(let i=0;i<cards.length;i++) {
         arr.push(
