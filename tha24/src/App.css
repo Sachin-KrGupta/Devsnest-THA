@@ -1,0 +1,36 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.login-form {
+  text-align: center;
+}
+
+.login-form > form > input {
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+  margin-right: 10px;
+  margin-left: 10px;
+  color: white;
+}
+
+a:hover {
+  color: red;
+  transform: scale(1.2);
+}
+
+.logInOut {
+  float: right;
+  margin-right: 50px;
+}
+
+.navbar {
+  background-color: grey;
+  padding: 10px 5px;
+  margin-bottom: 20px;
+}
