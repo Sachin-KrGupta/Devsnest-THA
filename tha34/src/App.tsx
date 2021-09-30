@@ -13,6 +13,11 @@ function App() {
     <div className="App">
       <h1>TODO APPLICATION</h1>
       <div className="input">
+        <form onSubmit={(e)=> {
+        e.preventDefault();
+        dispatch(addNote(input));
+        setInput("");
+      }}>
         <input
           type="text"
           value={input}
@@ -21,14 +26,8 @@ function App() {
           }}
         />
 
-        <button
-          onClick={() => {
-            dispatch(addNote(input));
-            setInput("");
-          }}
-        >
-          Add
-        </button>
+        <input type="submit" value="Add" />
+        </form>
       </div>
       <div className="notes">
         {notes.length > 0 ? (
